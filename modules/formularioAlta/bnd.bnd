@@ -1,0 +1,4 @@
+Bundle-Name: formularioAlta
+Bundle-SymbolicName: com.modulo.formulario.alta
+Bundle-Version: 1.0.0
+Export-Package: com.modulo.formulario.alta.constants

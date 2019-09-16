@@ -1,0 +1,10 @@
+Bundle-Name: registro-api
+Bundle-SymbolicName: com.modulo.registro.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.modulo.registro.exception,\
+	com.modulo.registro.model,\
+	com.modulo.registro.service,\
+	com.modulo.registro.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../registro-service/service.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.modulo.registro.model.Registro">
+		<field name="registroId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="userName" type="String" />
+		<field name="lastname" type="String" />
+		<field name="email" type="String" />
+		<field name="birthDate" type="Date" />
+		<field name="createDate" type="Date" />
+	</model>
+</model-hints>

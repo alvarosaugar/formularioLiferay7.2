@@ -1,0 +1,6 @@
+Bundle-Name: registro-service
+Bundle-SymbolicName: com.modulo.registro.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-dsannotations-options: inherit

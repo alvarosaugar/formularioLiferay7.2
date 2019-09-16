@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_2_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.modulo.registro">
+	<namespace>REG</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity name="Registro" local-service="true">
+
+		<!-- PK fields -->
+
+		<column name="registroId" primary="true" type="long"></column>
+
+		<!-- Group instance -->
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long"></column>
+        <column name="groupId" type="long"></column>
+		<column name="userName" type="String"></column>
+        <column name="lastname" type="String"></column>
+        <column name="email" type="String"></column>
+		<column name="birthDate" type="Date"></column>
+		<column name="createDate" type="Date"></column>
+        <finder name="Email" return-type="Collection">
+            <finder-column name="email"></finder-column>
+        </finder>
+	</entity>
+</service-builder>

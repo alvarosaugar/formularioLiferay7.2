@@ -1,0 +1,1 @@
+create index IX_515BC6C8 on REG_Registro (email[$COLUMN_LENGTH:75$]);
